@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body {
+    background-color: white;
+}
+.bg-pink {
+    background-color: #dc2771;
+}
+#important-headline {
+    font-family: 'Merriweather', serif;
+}
+#header {
+    height: 700px; /*change to 75%*/
+    color: white;
+}
+#headline {
+    position: relative;
+    top: 40%;
+}
+#about-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#caption {
+    z-index: 1;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.header {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.number {
+    color: #dc2771;
+}
