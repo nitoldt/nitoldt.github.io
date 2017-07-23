@@ -21,9 +21,11 @@ body {
     padding-bottom: 100px;
 }
 #caption {
-    z-index: 1;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#caption-sm {
+    margin-top: 25px;
 }
 .header {
     background-size: cover;
@@ -32,4 +34,9 @@ body {
 }
 .number {
     color: #dc2771;
+}
+@media screen and (max-width: 992px) {
+    #map {
+        height: 400px;
+    }
 }
